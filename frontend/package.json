@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.x.x",
+    "react": "^18.x.x",
+    "react-dom": "^18.x.x",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "^5.x.x",
+    "tailwindcss": "^3.4.16",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "postcss": "^8.x.x"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
